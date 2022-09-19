@@ -9,5 +9,5 @@ sent = 0
 
 while True:
   sock.sendto(bytes,(ip,port))
-  print "Sent %s packets to %s at port %s " % (sent,ip,port)
+  print ("Sent %s packets to %s at port %s " % (sent,ip,port))
   sent = sent + 1
